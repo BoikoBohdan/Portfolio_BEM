@@ -1,0 +1,188 @@
+<!--[if lt IE 9]>
+		<script>
+			var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+			for (var i = 0; i < e.length; i++) {
+				document.createElement(e[i]);
+			}
+		</script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, 
+	user-scalable=no, maximum-scale=1">
+	<title>Богдан Бойко</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&subset=latin,cyrillic-ext'
+          rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/normalaize.css"> <!-- Подключаем normalize CSS -->
+	<link rel="stylesheet" href="css/main.css"> <!-- Подключаем CSS -->
+</head>
+<body>
+	<header class="head" id="head">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<h4><a href="#head">Обо мне</a></h4>
+				</li>
+				<li class="navigation__item">
+					<h4><a href="#portfolio">Портфолио</a></h4>
+				</li>
+				<li class="navigation__item">
+					<h4><a href="#skills">Навыки</a></h4>
+				</li>
+				<li class="navigation__item">
+					<h4><a href="#">Книги</a></h4>
+				</li>
+				<li class="navigation__item">
+					<h4><a href="#contact">Контакты</a></h4>
+				</li>
+			</ul>
+		</nav>
+		<div class="about">
+			<div class="about__block">
+				<h3>Ценности</h3>
+				<p>
+					Считаю, что главное в людях честность, способность 
+					принимать трудные решения и способность им следовать в дальнейшем.
+				</p>
+			</div>
+			<div class="about__block">
+				<h3>Цели</h3>
+				<p>
+					Стать "синьором девелопером", завести собаку, посетить как минимум 
+					10 различных стран.
+				</p>
+			</div>
+			<div class="about__block">
+				<h3>Хобби</h3>
+				<p>
+					Люблю складывать пазлы, читать книги. Морю предпочитаю горы.
+					Хочу научиться играть на гитаре.
+				</p>
+			</div>
+	</header>
+	<section class="myself" id="myself">
+		<div class="myself__foto">
+			<img src="img/myfoto.jpeg" alt="Bohdan Boiko">
+		</div>
+		<div class="myself__info">
+			<h2>Обо мне</h2>
+			<p>
+				На данный момент учусь в Киевском Политехническом Институте.
+				На данный работаю на должности Image Retoucher Photoshop. 
+				В основные обязанности входит работа с масками и слоями. Развиваю 
+				навыки необходимые frontend разработчику. Хочу найти работу с возможностью 
+				и дальше развиваться и узнавать то-то новое в этой области.
+			</p>
+			<p>
+				Легко увлекаюсь работой у которой четко виден результат, поэтому и выбрал 
+				веб-разработку. Легко выхожу на контакт с людьми, но стараюсь по возможности 
+				не смешивать личные контакты с рабочими.
+			</p>
+			<div class="frontend">
+				<a href="https://github.com/BoikoBohdan" class="frontend__image">
+					<img src="img/git.png" alt="JS">
+					<h3>GitHub</h3>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio" id="portfolio">
+		<h2 class="portfolio__title">Портфолио</h2>
+		<p class="portfolio__description">
+			На данный момент в портфолио вы можете увидеть результаты моей работы на 
+			интенсиве по HTML/CSS (макеты интернет-магазина техномарт) , 
+			на интенсиве по JavaScript (сайт игры "Код и Магия" валидация формы, 
+			сортировка списков, галерея, параллакс) и самостоятельно сверстанные макеты, 
+			получаемые в ежемесячной рассылке от HTML Academy (собственно резюме и макет "modest"). 
+			Предпоследняя ссылка, первый проект на новой работе, сделанный в команде из 4ех разработчиков.
+			Внесла свою маленькую лепту. Последняя ссылка - работа на продвинутом интенсиве 
+			по JS (все что в папке js мое).
+		</p>
+		<div class="portfolio__work works">
+			<a href="#" class="works__block">
+				<img src="" alt="Work1">
+			</a>
+			<a href="#" class="works__block">
+				<img src="" alt="Work2">
+			</a>
+			<a href="#" class="works__block">
+				<img src="" alt="Work3">
+			</a>
+		</div>
+	</section>
+	<section class="skills" id="skills">
+		<h2 class="skills__title">Навики</h2>
+		<div class="skills__content">	
+			<div class="skills__text">
+				<span >Основные навыки:</span>
+				<ul>
+					<li>Кроссбраузерная, валидная, семантичная, адаптивная верстка</li>
+					<li>Уверенные знания JavaScript (базовые ES6)</li>
+					<li>Умею БЭМ, Foundation, LESS, SASS, jQuery</li>
+					<li>Все необходимые для верстальщика навыки работы с Photoshop, Avocode, Illustrator</li>
+					<li>Учу Vue</li>
+					<li>Опыт работы с git, JIRA, IDE - WebStorm, OS: Windows, Linux.</li>
+					<li>Английский язык Intermediate</li>
+				</ul>
+				<span >Помимо основных навыков:</span>
+				<ul>
+					<li>Имею представление о PHP и SQL (вузовский курс), C#</li>
+					<li>Изучаю Node.js (Express.js)</li>
+				</ul>
+			</div>
+			<div class="skills__border">
+				<ul class="border__list">
+					<li class="border__item">
+						<h2>HTML, CSS</h2>
+						<div class="border__all">	</div>
+						<div class="border__line" style="width: 80%">80%</div>
+					</li>
+					<li class="border__item">
+						<h2>JavaScript</h2>
+						<div class="border__all">	</div>
+						<div class="border__line" style="width: 40%">40%</div>
+					</li>
+					<li class="border__item">
+						<h2>Photoshop, Avocode</h2>
+						<div class="border__all">	</div>
+						<div class="border__line" style="width: 90%">90%</div>
+					</li>
+					<li class="border__item">
+						<h2>Git</h2>
+						<div class="border__all">	</div>
+						<div class="border__line" style="width: 65%">65%</div>
+					</li>
+					<li class="border__item">
+						<h2>Vue</h2>
+						<div class="border__all">	</div>
+						<div class="border__line" style="width: 10%">10%</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<h2 class="contact__title">
+			Контакты
+		</h2>
+		<p>Ниже представлена моя контактная информация. Предпочтительным способом связи является электронная почта.
+		</p>
+		<a href="tel:+380935421202">+380935421202</a>
+		<a href="mailto:bohdan.boiko@gmail.com">bohdan.boiko@gmail.com</a>
+	</section>
+	<footer class="foot" id="foot">
+		<div class="foot__list">
+			<a href="#" class="foot__link"><i class="fab fa-github"></i></a>
+			<a href="#" class="foot__link"><i class="fab fa-linkedin-in"></i></a>
+			<a href="#" class="foot__link"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="foot__link"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#" class="foot__link"><i class="fab fa-html5"></i></a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/common.js"></script><!-- Подключаем  наших скриптов -->
+	<script type="text/javascript" src="js/libs.min.js"></script><!-- Подключаем библиотек -->
+</body>
+</html>
